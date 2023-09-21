@@ -3,16 +3,16 @@ namespace tp_1.Models
 {
 	public class Devise
 	{
-
+		private int id;
 		public int Id
 		{
 			get
 				{
-					return Id;
+					return id;
 				}
 			set
 				{
-					Id = value;
+					id = value;
 				}
 		}
 		private string? nomDevise;
@@ -33,7 +33,7 @@ namespace tp_1.Models
 
         public Devise(int id, string? nomDevise, double taux)
         {
-            Id = id;
+            id = id;
             NomDevise = nomDevise;
             Taux = taux;
         }

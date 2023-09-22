@@ -11,14 +11,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     </ItemGroup>
 
     <ItemGroup>
-        <None Remove="Models\"/>
-        <None Include="bin\Debug\net6.0\tp_1.xml"/>
+        <None Remove="Models\" />
+        <None Include="bin\Debug\net6.0\tp_1.xml" />
     </ItemGroup>
     <ItemGroup>
-        <Folder Include="Models\"/>
+        <Folder Include="Models\" />
     </ItemGroup>
 </Project>

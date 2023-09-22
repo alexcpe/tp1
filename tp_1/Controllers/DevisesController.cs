@@ -74,6 +74,7 @@ public class DevisesController : Controller
     public ActionResult<Devise> Delete(int id)
     {
         var devise = devises.FirstOrDefault(d => d.Id == id);
+        if (!ModelState.IsValid) return BadRequest();
         if (devise == null) return NotFound();
         devises.Remove(devise);
         return devise;

@@ -11,7 +11,7 @@
   "profiles": {
     "tp_1": {
       "commandName": "Project",
-      "launchBrowser": true,
+      "launchBrowser": false,
       "launchUrl": "swagger",
       "applicationUrl": "https://localhost:7252;http://localhost:5113",
       "environmentVariables": {

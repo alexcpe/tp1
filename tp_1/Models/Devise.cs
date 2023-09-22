@@ -1,4 +1,6 @@
-﻿namespace tp_1.Models;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace tp_1.Models;
 
 public class Devise
 {
@@ -11,7 +13,7 @@ public class Devise
 
     public int Id { get; set; }
 
-    public string? NomDevise { get; set; }
+    [Required] public string? NomDevise { get; set; }
 
     public double Taux { get; set; }
 }
